@@ -18,8 +18,11 @@ import cross_icon from './cross_icon.svg'
 import star_group from './star_group.png'
 import credit_star from './credit_star.svg'
 import profile_icon from './profile_icon.png'
+import Pictora from './Pictora.png'
+import Pictora_logo from './Pictora-logo.png'
 
 export const assets = {
+
     logo,
     logo_icon,
     facebook_icon,
@@ -34,7 +37,9 @@ export const assets = {
     cross_icon,
     star_group,
     credit_star,
-    profile_icon
+    profile_icon,
+    Pictora,
+    Pictora_logo
 }
 
 export const stepsData = [
