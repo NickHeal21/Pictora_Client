@@ -17,7 +17,7 @@ const Navbar = () => {
       {user ?
       <div className='flex items-center gap-2 sm:gap-3'>
 
-        <button className='flex items-center gap-2 bg-blue-100 px-4 py-1.5 sm:px-6 sm:py-3 rounded-full hover:scale-105 transition-all duration-700'>
+        <button onclick={()=> navigate('/buy')} className='flex items-center gap-2 bg-blue-100 px-4 py-1.5 sm:px-6 sm:py-3 rounded-full hover:scale-105 transition-all duration-700'>
         <img className='w-5'src={assets.credit_star} alt="" />
         <p className='text-xs sm:text-sm font-medium text-gray-600'>Credits Left : 100 </p>
         </button>
@@ -39,7 +39,7 @@ const Navbar = () => {
       </div>
       :
       <div className='flex items-center gap-2 sm:gap-5 md:gap-12'>
-        <p onClick={()=> navigate('/buy  ')} className='cursor-pointer'>Our Prices</p>
+        <p onClick={()=> navigate('/buy')} className='cursor-pointer'>Our Prices</p>
         <button className='bg-zinc-800 text-white px-7 py-2 sm:px-10 text-sm rounded-full'>Login</button>
       </div>
       }
