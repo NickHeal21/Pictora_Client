@@ -21,6 +21,8 @@ import profile_icon from './profile_icon.png'
 import Pictora from './Pictora.png'
 import Pictora_logo from './Pictora-logo.png'
 import red_logo from 'C:/Users/ASUS/Desktop/Pictora/client/src/assets/insta_red_logo.svg'
+import user_icon from './user_icon.png'
+import user_icon1 from './User_Icon1.png'
 
 export const assets = {
 
@@ -41,7 +43,9 @@ export const assets = {
     profile_icon,
     Pictora,
     Pictora_logo,
-    red_logo
+    red_logo,
+    user_icon,
+    user_icon1
 }
 
 export const stepsData = [
