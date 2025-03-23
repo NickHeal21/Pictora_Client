@@ -4,7 +4,6 @@ import Steps from '../components/Steps'
 import Description from '../components/description'
 import Testimonials from '../components/Testimonials'
 import Generatebtn from '../components/Generatebtn'
-import Footer from '../components/Footer'
 
 const Home = () => {
   return (
