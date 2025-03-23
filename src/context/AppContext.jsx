@@ -46,7 +46,8 @@ const  AppContextProvider = (props) =>{
                     return null;
                 }
             }else{
-                toast.error(data.message) //api response
+                toast.error(data.message)
+                console.log("cannot create image") //api response
                 loadCreditsData()
                 if(data.creditBalance === 0){
                     navigate('/buy')
